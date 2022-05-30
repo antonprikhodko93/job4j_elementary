@@ -13,12 +13,14 @@ public class MathCalculator {
         return subtr(first, second)
                 + div(first, second);
     }
+
     public static double sumAll(double first, double second) {
         return sum(first, second)
                 + multiply(first, second)
                 + subtr(first, second)
                 + div(first, second);
     }
+
     public static void main(String[] args) {
         System.out.println("Результат первого расчета равен: " + sumAndMultiply(10, 20));
         System.out.println("Результат второго расчета равен: " + sumAll(10, 20));
