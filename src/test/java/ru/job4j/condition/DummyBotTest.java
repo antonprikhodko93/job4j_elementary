@@ -22,7 +22,7 @@ public class DummyBotTest {
 
     @Test
     public void whenUnknownBot() {
-        String in = "Сколько будет 2 + 2?";
+        String in = "Сколько будет 2 + 1?";
         String result = DummyBot.answer(in);
         String expected = "Это ставит меня в тупик. Задайте другой вопрос.";
         Assert.assertEquals(expected, result);
