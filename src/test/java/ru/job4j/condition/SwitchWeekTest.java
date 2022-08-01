@@ -10,7 +10,7 @@ public class SwitchWeekTest {
     public void nameOfMonday() {
         int in = 1;
         String result = SwitchWeek.nameOfDay(in);
-        String expected = "Понедельник";
+        String expected = "РџРѕРЅРµРґРµР»СЊРЅРёРє";
         assertThat(result).isEqualTo(expected);
     }
 
@@ -18,7 +18,7 @@ public class SwitchWeekTest {
     public void nameOfTuesday() {
         int in = 2;
         String result = SwitchWeek.nameOfDay(in);
-        String expected = "Вторник";
+        String expected = "Р’С‚РѕСЂРЅРёРє";
         assertThat(result).isEqualTo(expected);
     }
 
@@ -26,7 +26,7 @@ public class SwitchWeekTest {
     public void nameOfUnday() {
         int in = 8;
         String result = SwitchWeek.nameOfDay(in);
-        String expected = "Ошибка";
+        String expected = "РћС€РёР±РєР°";
         assertThat(result).isEqualTo(expected);
     }
 }
