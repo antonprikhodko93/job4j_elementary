@@ -23,7 +23,7 @@ public class SwitchWeekTest {
     }
 
     @Test
-    public void nameOfUnday() {
+    public void nameOfNoday() {
         int in = 8;
         String result = SwitchWeek.nameOfDay(in);
         String expected = "Ошибка";
