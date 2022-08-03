@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class MultipleSwitchWeekTest {
 
     @Test
-    public void nameOfПонедельник() {
+    public void nameOfMondayRus() {
         String in = "Понедельник";
         int result = MultipleSwitchWeek.numberOfDay(in);
         int expected = 1;
@@ -23,7 +23,7 @@ class MultipleSwitchWeekTest {
     }
 
     @Test
-    public void nameOfЧетверг() {
+    public void nameOfThursdayRus() {
         String in = "Четверг";
         int result = MultipleSwitchWeek.numberOfDay(in);
         int expected = 4;
