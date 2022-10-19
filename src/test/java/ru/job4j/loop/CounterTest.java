@@ -14,7 +14,7 @@ public class CounterTest {
     }
 
     @Test
-    public void whenSumNumbersFromThreeToSevenThenTwentyFive() {
+    public void whenSumNumbersFromThreeToSevenThenTwentyfive() {
         int start = 3;
         int finish = 7;
         int result = Counter.sum(start, finish);
@@ -23,7 +23,7 @@ public class CounterTest {
     }
 
     @Test
-    public void whenSumEvenNumbersFromSixToTwelveThenThirtySix() {
+    public void whenSumEvenNumbersFromSixToTwelveThenThirtysix() {
         int start = 6;
         int finish = 12;
         int result = Counter.sumByEven(start, finish);
